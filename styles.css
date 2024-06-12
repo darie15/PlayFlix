@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro semi-transparente */
+    color: #fff;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 30px; /* Ajusta el tamaño del logo según sea necesario */
+    height: auto;
+    margin-right: 10px; /* Ajusta el margen derecho para separar el logo del texto */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-left: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9em;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 10px;
+    background-image: url('hero.jpg'); /* Imagen de fondo */
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1em;
+}
+
+.hero button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #000;
+    background-color: #e50914; /* Rojo característico de Netflix */
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.gallery {
+    padding: 10px;
+}
+
+.gallery h2 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.movies {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.movie {
+    text-align: center;
+    margin: 5px;
+    width: 45%;
+}
+
+.movie img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro semi-transparente */
+    color: #fff;
+}
+
+.video-player {
+    text-align: center;
+    margin: 20px;
+    color: #fff;
+}
+
+.video-player h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #fff;
+}
+
+/* Media Queries */
+@media (min-width: 600px) {
+    .hero h1 {
+        font-size: 3em;
+    }
+    .hero p {
+        font-size: 1.2em;
+    }
+    .movie {
+        width: 30%;
+    }
+}

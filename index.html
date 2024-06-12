@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayFlix</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#000000">
+    <link rel="apple-touch-icon" href="logo.jpg">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.jpg" alt="Logo de la aplicación">
+            PlayFlix
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Series</a></li>
+                <li><a href="#">Películas</a></li>
+                <li><a href="#">Mi Lista</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Disfruta de tus películas y series favoritas</h1>
+            <p>Ve donde quieras, cuando quieras</p>
+            <button>Ayudar con una donación</button>
+        </section>
+        <section class="gallery">
+            <h2>Popular en PlayFlix</h2>
+            <div class="movies">
+                <div class="movie">
+                    <a href="movie.html" target="_blank">
+                        <img src="BlackAdam.jpg" alt="Black Adam">
+                        <h3>Black Adam</h3>
+                    </a>
+                </div>
+                <div class="movie">
+                    <img src="https://via.placeholder.com/200x150" alt="Película 2">
+                    <h3>Película 2</h3>
+                </div>
+                <div class="movie">
+                    <img src="https://via.placeholder.com/200x150" alt="Película 3">
+                    <h3>Película 3</h3>
+                </div>
+                <!-- Más películas -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 PlayFlix. Todos los derechos reservados.</p>
+    </footer>
+    <script src="service-worker.js"></script>
+</body>
+</html>
